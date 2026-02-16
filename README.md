@@ -25,3 +25,18 @@ Write a shell script that accepts a filename as input and prints the number of l
 -s -	checks file size > 0 (not empty)
 && means → if true
 || means → else
+
+# Assignment 3 – String Replacement in Files 
+
+
+## Objective:
+Write a script that replaces all occurrences of a string in multiple files. Replace the string FOO with BAR in all .conf files in a given directory and its subdirectories.
+Use find + sed.
+
+## Operators Used:
+sed- 	stream editor
+-i -	edit file directly
+s -	substitute
+FOO -	old text
+BAR -	new text
+g -	replace all occurrences
