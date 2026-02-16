@@ -49,21 +49,21 @@ Create a shell script that reads a CSV/log file line by line, filters lines cont
 
 ## Operators Used:
 
-##Condition operators
+## Condition operators
 -f → checks if file exists
 ! → NOT (negation)
 
-##Variables
+## Variables
 $1 → input filename
 $2 → output filename
 
-##Redirection
+## Redirection
 > → create/overwrite file
 >> → append to file
 
-##Loop
+## Loop
 while read line → reads file line by line
 
-##Command
+## Command
 
 grep → filters lines containing a word
