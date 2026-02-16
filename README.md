@@ -11,7 +11,7 @@ Operators Used:
 $1 → command-line argument
 && →  if true then run next
 
-#Assignment 2 –  Count Lines, Words, and Characters
+# Assignment 2 –  Count Lines, Words, and Characters
 
 
 Operators Used:
