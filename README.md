@@ -40,3 +40,30 @@ s -	substitute
 FOO -	old text
 BAR -	new text
 g -	replace all occurrences
+
+# Assignment 4 – Filter ERROR Lines from File
+
+
+## Objective:
+Create a shell script that reads a CSV/log file line by line, filters lines containing ERROR, and saves them into a separate output file with a header.
+
+## Operators Used:
+
+###Condition operators
+-f → checks if file exists
+! → NOT (negation)
+
+###Variables
+$1 → input filename
+$2 → output filename
+
+###Redirection
+> → create/overwrite file
+>> → append to file
+
+###Loop
+while read line → reads file line by line
+
+###Command
+
+grep → filters lines containing a word
