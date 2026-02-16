@@ -9,3 +9,4 @@ Operators Used:
 -w → writable
 -d → directory
 $1 → command-line argument
+&& →  if true then run next
