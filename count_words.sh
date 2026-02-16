@@ -15,7 +15,7 @@ else
 fi
  
 
-#or
+#or (long-code) this also works
 
 #!/bin/sh
 
