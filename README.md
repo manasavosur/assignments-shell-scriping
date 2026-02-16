@@ -1,9 +1,9 @@
-**Assignment 1 – File Permission Checker (Shell Script)**
+# Assignment 1 – File Permission Checker (Shell Script)
 
-Objective:
+## Objective:
 Write a shell script that accepts a file/directory as input and checks whether it exists, is readable, writable, or not present. If it is a directory, list its contents.
 
-Operators Used:
+## Operators Used:
 -e → exists
 -r → readable
 -w → writable
@@ -13,8 +13,10 @@ $1 → command-line argument
 
 # Assignment 2 –  Count Lines, Words, and Characters
 
+## objective: 
+Write a shell script that accepts a filename as input and prints the number of lines, words, and characters, while handling empty files, missing files, and permission issues.
 
-Operators Used:
+## Operators Used:
 -z -	checks if input/variable is empty
 -e - checks if file exists
 -r -	checks read permission
